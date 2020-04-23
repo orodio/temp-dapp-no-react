@@ -1,0 +1,21 @@
+{
+  "name": "daniel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@onflow/fcl": "0.0.28",
+    "@onflow/sdk": "0.0.14",
+    "@onflow/types": "0.0.1"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}
